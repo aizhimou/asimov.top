@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>数据结构之数组 - Asimov&#39;s Blog</title><meta name="Description" content="Asimov&#39;s Blog"><meta property="og:title" content="数据结构之数组" />
+<meta property="og:description" content="数组是各种编程语言中最基础、最常用也是最重要的实现，理解数组是学习其他高级数据结构的基础。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://asimov.top/data-structures-array/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-02T20:16:39+08:00" />
+<meta property="article:modified_time" content="2021-03-02T20:16:39+08:00" /><meta property="og:site_name" content="Asimov&#39;s Blog" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="数据结构之数组"/>
+<meta name="twitter:description" content="数组是各种编程语言中最基础、最常用也是最重要的实现，理解数组是学习其他高级数据结构的基础。"/>
+<meta name="application-name" content="Asimov">
+<meta name="apple-mobile-web-app-title" content="Asimov"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://asimov.top/data-structures-array/" /><link rel="prev" href="https://asimov.top/introduction-to-algorithm-complexity-analysis/" /><link rel="next" href="https://asimov.top/clickhouse-billion-level-data-performance-test/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "数据结构之数组",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/asimov.top\/data-structures-array\/"
+        },"genre": "posts","keywords": "DataStructure","wordcount":  109 ,
+        "url": "https:\/\/asimov.top\/data-structures-array\/","datePublished": "2021-03-02T20:16:39+08:00","dateModified": "2021-03-02T20:16:39+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "asimov"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Asimov&#39;s Blog">Asimov&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Asimov&#39;s Blog">Asimov&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">数据结构之数组</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>asimov</a></span>&nbsp;<span class="post-category">included in <a href="/categories/computer-science/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Computer Science</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-03-02">2021-03-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;109 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png"
+        data-srcset="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png, https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png 1.5x, https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png 2x"
+        data-sizes="auto"
+        alt="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png"
+        title="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#简介">简介</a></li>
+    <li><a href="#读取">读取</a>
+      <ul>
+        <li><a href="#随机访问">随机访问</a></li>
+        <li><a href="#访问越界">访问越界</a></li>
+        <li><a href="#查找">查找</a></li>
+      </ul>
+    </li>
+    <li><a href="#插入">插入</a>
+      <ul>
+        <li><a href="#有序插入">有序插入</a></li>
+        <li><a href="#无顺插入">无顺插入</a></li>
+        <li><a href="#扩容">扩容</a></li>
+      </ul>
+    </li>
+    <li><a href="#删除">删除</a>
+      <ul>
+        <li><a href="#立即删除">立即删除</a></li>
+        <li><a href="#延后删除">延后删除</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="简介">简介</h2>
+<p>数组是一个<strong>线性表</strong>类型的数据数据，它用一组<strong>连续的内存空间</strong>，来存储一组<strong>类型相同的数据</strong>。</p>
+<p>数组中使用<strong>下标</strong>来表示某个元素在数组中的位置，下标从 0 开始计数。例如数组 array 中第 6 个元素，表示为：<code>array[5]</code></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://static001.geekbang.org/resource/image/98/c4/98df8e702b14096e7ee4a5141260cdc4.jpg"
+        data-srcset="https://static001.geekbang.org/resource/image/98/c4/98df8e702b14096e7ee4a5141260cdc4.jpg, https://static001.geekbang.org/resource/image/98/c4/98df8e702b14096e7ee4a5141260cdc4.jpg 1.5x, https://static001.geekbang.org/resource/image/98/c4/98df8e702b14096e7ee4a5141260cdc4.jpg 2x"
+        data-sizes="auto"
+        alt="https://static001.geekbang.org/resource/image/98/c4/98df8e702b14096e7ee4a5141260cdc4.jpg"
+        title="图示数组" /></p>
+<h2 id="读取">读取</h2>
+<h3 id="随机访问">随机访问</h3>
+<p>基于<strong>连续内存空间</strong>和<strong>类型相同</strong>两个特征，使得<strong>随机访问</strong>数组中的数据成为可能。</p>
+<p>假设数组 <code>array</code> 的起始内存地址为 <code>start</code>，因为储存的数据类型相同，因此每块数据占用的内存大小也相同，假设为 <code>size</code>，那么读取下标为 <code>i</code> 的数据的内存地址的公式为：<code>array[i] = start + i * size</code></p>
+<p>计算机可以通过这样的公式直接读取这个内存地址中储存的数据，不需要任何额外的操作，一发命中，所以其<strong>时间复杂度为</strong> $\mathbf{O(1)}$</p>
+<h3 id="访问越界">访问越界</h3>
+<p>由于访问数组需要指定下标，那么当指定的下标不存在时，会发生读取错误，称为访问越界。这个错误在不同的语言中，有不同的表现。</p>
+<p>如果是 Java 这种语言层做了越界检查的语言，就会抛出 <code>java.lang.ArrayIndexOutOfBoundsException</code>，但是如果是 C 语言的话，可能会发生不可预知的错误，比如无限循环。所以访问数组时，需要警惕访问越界错误。</p>
+<h3 id="查找">查找</h3>
+<p>有些地方说数组适合查找，查找的时间复杂度是 $O(1)$，这其实是不对的。</p>
+<p>随机读取的前提是知道元素的下标，<strong>随机读取并不是查找</strong>，查找是要在数组中找到某个目标元素，在找到之前是不知道下标的，所以<strong>查找的时间复杂度不是</strong> $\mathbf{O(1)}$。</p>
+<p>查找有不同的实现算法，即便是排好序的数组，用二分法查找，时间复杂度也是 $O(log_n)$</p>
+<h2 id="插入">插入</h2>
+<p>如果我们要在一个长度为 10，且前 5 个位置都已经有数据的数组中，插入一个新的元素到第 3 个位置，时间复杂度是多少？</p>
+<p>例如现有数组 <code>[bily,tony,jack,oliver,james]</code>，我们要将新同学 <code>harry</code> 插入到 <code>jack</code> 现在的位置上，这里需要分两种情况来看</p>
+<h3 id="有序插入">有序插入</h3>
+<p>如果插入之后需要保持元素的顺序，插入后的数组应该是这样 <code>[bily,tony,harry,jack,oliver,james]</code>，那么第 3 位及以后的所有元素都需要往后挪一位。</p>
+<p>这种情况下，最好时间复杂度是 $O(1)$，就是插入的元素刚好在最后一位的情况，不需要移动任何元素；</p>
+<p>最坏时间复杂度是 $O(n)$，就是插入的元素在第一位的情况，所有元素都需要移动一次；</p>
+<p>那么平均时间复杂度是多少呢？因为插入到每个位置的概率都是一样的，所以<strong>平均时间复杂度是</strong> $\frac{1+2+\cdots+n}{n}=\mathbf{O(n)}$</p>
+<h3 id="无顺插入">无顺插入</h3>
+<p>如果插入之后不需要保持元素的顺序，那么插入时直接交换 <code>jack</code> 和 <code>harry</code> 的位置即可：<code>[bily,tony,harry,oliver,james,jack]</code></p>
+<p>此时无论将新元素插入到哪个位置上，都只需要操作新旧两个元素，因此<strong>时间复杂度是</strong> $\mathbf{O(1)}$</p>
+<h3 id="扩容">扩容</h3>
+<p>因为数组使用的是一块连续的内存，所以在使用之前就需要提前向计算机申请内存，也就是在声明数组时，需要确定数组的大小。</p>
+<p>当数组中的空间耗尽时，就无法插入新元素，此时需要手动给数组进行“扩容”，也就是新申请一个更大的数组，然后将原来的数据搬过去，再插入新数据。这是一个比较耗时的操作，<strong>时间复杂度是</strong> $\mathbf{O(n)}$</p>
+<h2 id="删除">删除</h2>
+<h3 id="立即删除">立即删除</h3>
+<p>还是因为数组使用连续内存空间的特征，所以在删除了其中一个元素后，这个位置不能空着，否则内存空间就不连续了，那么就需要把后面的数据都往前挪一位。</p>
+<p>这个操作和保持顺序插入是比较类似的，如果删除的刚好是最后一个元素，那时间复杂度就是 $O(n)$，如果删除的是第一个元素，那时间复杂度就是 $O(n)$，而平<strong>均时间复杂度是</strong> $\mathbf{O(n)}$</p>
+<h3 id="延后删除">延后删除</h3>
+<p>除了踏踏实实的立即删除外，为了优化数组删除操作的性能，工程师们有一些巧思妙想。</p>
+<p>例如，我们要在数组 <code>[bily,tony,harry,jack,oliver,james]</code> 中依次删除 <code>bily</code> 和<code>tony</code>，如果操作一次就删除一次，那么就会造成两次数据搬运，造成性能损耗。</p>
+<p>实际上，在大部分情况下，删除就是为了让被删除的数据无法被读取，那么我们只需要将这两个数据标记为已删除，而不是真正的删除，让其无法被读取，然后等到数据空间不够的时候，再一次性删除所有被标记为已删除的数据，只需要进行一次数据搬运操作。</p>
+<p>在操作频繁的情况下中，这样可以大大提高数组操作的性能表现。</p>
+<p>这个先标记再延迟删除的思路，其实就是 Java 虚拟机中标记清除垃圾回收算法的核心思想。数据结构和算法的魅力就在于此，<strong>很多时候我们并不是要去死记硬背某个数据结构或者算法，而是要学习它背后的思想和处理技巧，这些东西才是可拓展可迁移，才是最有价值的。</strong></p>
+<h2 id="总结">总结</h2>
+<ul>
+<li>数组是一种适合多读少写的数据结构，随机访问效率很高，时间复杂度是 $O(1)$，但是插入和删除操作相对低效，时间复杂度是 $O(n)$</li>
+<li>数据本身是一种很基础的数据结构，提供的 API 比较有限，复杂操作并不方便。很多编程语言都提供了以数组为基础的容器，提供了更多的 API，使用起来更加方便，如果不是对性能有非常高的要求，日常开发中使用容器更方便。</li>
+<li>基于数组本身的特点，在使用数据容器（例如 Java 中的 ArrayList）时，尽量提前设置大小，可以提高效率。</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-03-02</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://asimov.top/data-structures-array/" data-title="数据结构之数组" data-hashtags="DataStructure"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://asimov.top/data-structures-array/" data-hashtag="DataStructure"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://asimov.top/data-structures-array/" data-title="数据结构之数组"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://asimov.top/data-structures-array/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://asimov.top/data-structures-array/" data-title="数据结构之数组"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pocket" data-sharer="pocket" data-url="https://asimov.top/data-structures-array/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://asimov.top/data-structures-array/" data-title="数据结构之数组" data-image="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/datastructure/">DataStructure</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/introduction-to-algorithm-complexity-analysis/" class="prev" rel="prev" title="算法复杂度分析入门"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>算法复杂度分析入门</a>
+            <a href="/clickhouse-billion-level-data-performance-test/" class="next" rel="next" title="Clickhouse 亿级数据性能测试">Clickhouse 亿级数据性能测试<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">本网站由<a target='_blank' href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'><img src='/upyun_logo.png' style='vertical-align:middle;height:30px'></img></a>提供加速/云存储服务</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp"><a target='_blank' href='https://beian.miit.gov.cn/'>鄂ICP备2021010784号</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

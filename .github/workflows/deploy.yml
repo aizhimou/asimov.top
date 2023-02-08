@@ -38,4 +38,5 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           # 执行远程脚本
           script: |
+            cd /opt/nginx-proxy-manager/data/asimov.top
             hugo --minify --cleanDestinationDir

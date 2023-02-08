@@ -389,19 +389,19 @@ enableEmoji = true
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
+        enable = true
+        appId = "hYD0A3LPQRJ8XtDtRZG2PjSP-9Nh9j0Va"
+        appKey = "LSgCEWjOrLFDg4I5Q4cSfzA7"
+        placeholder = "文章写得如何？给个评价呗 😊"
+        avatar = "hide"
         meta= ""
-        pageSize = 10
+        pageSize = 20
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = ""
         #  emoji 数据文件名称, 默认是 "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]

@@ -5,8 +5,8 @@ summary: "数组是各种编程语言中最基础、最常用也是最重要的�
 date: 2021-03-02T20:16:39+08:00
 tags: ['DataStructure']
 categories: ['Computer Science']
-featuredImage: https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png
-featuredImagePreview: https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png
+featuredImage: https://assets.asimov.top/uPic/Arrays-in-data-structure (1).webp
+featuredImagePreview: https://assets.asimov.top/uPic/Arrays-in-data-structure (1).webp
 draft: false
 ---
 

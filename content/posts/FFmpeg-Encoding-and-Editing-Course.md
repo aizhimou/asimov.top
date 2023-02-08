@@ -5,8 +5,8 @@ summary: "一篇文章搞懂 FFmpeg 的基本原理、入门路线及常用操�
 date: 2021-06-12T21:23:46+08:00
 tags: ['FFmpeg']
 categories: ['Media']
-featuredImage: https://ahmadawais.com/wp-content/uploads/2021/05/FFmpeg.jpg
-featuredImagePreview: https://ahmadawais.com/wp-content/uploads/2021/05/FFmpeg.jpg
+featuredImage: https://assets.asimov.top/uPic/FFmpeg.webp
+featuredImagePreview: https://assets.asimov.top/uPic/FFmpeg.webp
 draft: false
 ---
 

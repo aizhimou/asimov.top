@@ -5,8 +5,8 @@ summary: "也许是中文互联网第一篇 Clickhouse 亿级数据性能详细�
 date: 2021-03-16T21:35:39+08:00
 tags: ['BigData','Clickhouse','OLAP']
 categories: ['Database']
-featuredImage: https://img.lifelog.cool/Using%20ClickHouse%20with%20MetricFire_waifu2x_art_noise3_scale.webp
-featuredImagePreview: https://img.lifelog.cool/Using%20ClickHouse%20with%20MetricFire_waifu2x_art_noise3_scale.webp
+featuredImage: https://assets.asimov.top/uPic/Using ClickHouse with MetricFire (1).webp
+featuredImagePreview: https://assets.asimov.top/uPic/Using ClickHouse with MetricFire (1).webp
 draft: false
 ---
 

@@ -5,8 +5,8 @@ summary: "一篇文章入门算法时间与空间复杂度分析，足够覆盖 
 date: 2021-02-06T17:04:54+08:00
 tags: ['Algorithm']
 categories: ['Computer Science']
-featuredImage: https://img.lifelog.cool/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.jpg
-featuredImagePreview: https://img.lifelog.cool/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.jpg
+featuredImage: https://assets.asimov.top/uPic/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.webp
+featuredImagePreview: https://assets.asimov.top/uPic/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.webp
 draft: false
 ---
 

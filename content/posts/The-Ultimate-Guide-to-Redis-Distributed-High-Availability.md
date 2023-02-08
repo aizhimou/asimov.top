@@ -5,8 +5,8 @@ summary: ""
 date: 2020-10-20T22:19:32+08:00
 tags: ['Redis','Distributed']
 categories: ['Database']
-featuredImage: https://www.mortensi.com/wp-content/uploads/2021/12/OSS-Cluster-background.png
-featuredImagePreview: https://www.mortensi.com/wp-content/uploads/2021/12/OSS-Cluster-background.png
+featuredImage: https://assets.asimov.top/uPic/redis-cache-cluster (1).webp
+featuredImagePreview: https://assets.asimov.top/uPic/redis-cache-cluster (1).webp
 draft: false
 ---
 

@@ -5,8 +5,8 @@ summary: "Java 集合框架是 JDK 提供给 Java 开发者操作数据结构的
 date: 2021-05-02T22:46:28+08:00
 tags: ['Collections','Java']
 categories: ['Program Language']
-featuredImage: https://www.softwaretestingmaterial.com/wp-content/uploads/2018/08/Collections-Framework-In-Java.png
-featuredImagePreview: https://www.softwaretestingmaterial.com/wp-content/uploads/2018/08/Collections-Framework-In-Java.png
+featuredImage: https://assets.asimov.top/uPic/Collections-Framework-In-Java.webp
+featuredImagePreview: https://assets.asimov.top/uPic/Collections-Framework-In-Java.webp
 draft: false
 ---
 

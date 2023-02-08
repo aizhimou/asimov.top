@@ -33,8 +33,8 @@ jobs:
       - name: hugo build # 第三步，hugo编译
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SSH_HOST }} # 下面三个配置与上一步类似
-          username: ${{ secrets.SSH_USERNAME }}
+          host: ${{ secrets.SERVER_IP }} # 下面三个配置与上一步类似
+          username: ${{ secrets.USERNAME }}
           key: ${{ secrets.DEPLOY_KEY }}
           # 执行远程脚本
           script: |

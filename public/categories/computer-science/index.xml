@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Computer Science - Category - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/categories/computer-science/</link>
-        <description>Computer Science - Category - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 02 Mar 2021 20:16:39 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/categories/computer-science/" rel="self" type="application/rss+xml" /><item>
-    <title>数据结构之数组</title>
-    <link>https://asimov.top/data-structures-array/</link>
-    <pubDate>Tue, 02 Mar 2021 20:16:39 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/data-structures-array/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Computer Science - Category - Asimov's Blog</title><link>https://asimov.top/categories/computer-science/</link><description>Computer Science - Category - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 02 Mar 2021 20:16:39 +0800</lastBuildDate><atom:link href="https://asimov.top/categories/computer-science/" rel="self" type="application/rss+xml"/><item><title>数据结构之数组</title><link>https://asimov.top/data-structures-array/</link><pubDate>Tue, 02 Mar 2021 20:16:39 +0800</pubDate><author>asimov</author><guid>https://asimov.top/data-structures-array/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png" referrerpolicy="no-referrer">
             </div><h2 id="简介">简介</h2>
 <p>数组是一个<strong>线性表</strong>类型的数据数据，它用一组<strong>连续的内存空间</strong>，来存储一组<strong>类型相同的数据</strong>。</p>
@@ -58,15 +46,7 @@
 <li>数据本身是一种很基础的数据结构，提供的 API 比较有限，复杂操作并不方便。很多编程语言都提供了以数组为基础的容器，提供了更多的 API，使用起来更加方便，如果不是对性能有非常高的要求，日常开发中使用容器更方便。</li>
 <li>基于数组本身的特点，在使用数据容器（例如 Java 中的 ArrayList）时，尽量提前设置大小，可以提高效率。</li>
 </ul>
-]]></description>
-</item>
-<item>
-    <title>算法复杂度分析入门</title>
-    <link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link>
-    <pubDate>Sat, 06 Feb 2021 17:04:54 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>算法复杂度分析入门</title><link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link><pubDate>Sat, 06 Feb 2021 17:04:54 +0800</pubDate><author>asimov</author><guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://img.lifelog.cool/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.jpg" referrerpolicy="no-referrer">
             </div><p><strong>执行效率</strong>和<strong>资源消耗</strong>是评价一个算法优劣最核心的两个点，分别代表运行这个算法所需要消耗的<strong>时间</strong>和<strong>空间</strong>。</p>
 <p>分析运行一个算法需要消耗多少时间的行为叫做<strong>时间复杂度分析</strong>，同理，分析运行一个算法需要消耗多少空间的行为叫做<strong>空间复杂度分析</strong>。</p>
@@ -553,7 +533,4 @@ $$1*\frac{1}{n+1}+1*\frac{1}{n+1}+\cdots+1*\frac{1}{n+1}+n*\frac{1}{n+1}=\frac{2
 <blockquote>
 <p>本文主要参考<a href="https://time.geekbang.org/column/intro/100017301" target="_blank" rel="noopener noreffer ">《数据结构与算法之美》</a>和维基百科。</p>
 </blockquote>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

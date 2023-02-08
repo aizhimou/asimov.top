@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>OLAP - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/olap/</link>
-        <description>OLAP - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 16 Mar 2021 21:35:39 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/olap/" rel="self" type="application/rss+xml" /><item>
-    <title>Clickhouse 亿级数据性能测试</title>
-    <link>https://asimov.top/clickhouse-billion-level-data-performance-test/</link>
-    <pubDate>Tue, 16 Mar 2021 21:35:39 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/clickhouse-billion-level-data-performance-test/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>OLAP - Tag - Asimov's Blog</title><link>https://asimov.top/tags/olap/</link><description>OLAP - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 16 Mar 2021 21:35:39 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/olap/" rel="self" type="application/rss+xml"/><item><title>Clickhouse 亿级数据性能测试</title><link>https://asimov.top/clickhouse-billion-level-data-performance-test/</link><pubDate>Tue, 16 Mar 2021 21:35:39 +0800</pubDate><author>asimov</author><guid>https://asimov.top/clickhouse-billion-level-data-performance-test/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://img.lifelog.cool/Using%20ClickHouse%20with%20MetricFire_waifu2x_art_noise3_scale.webp" referrerpolicy="no-referrer">
             </div><p>Clickhouse 在离线数据分析技术领域早已声名远扬，如果还不知道可以 <a href="https://clickhouse.tech/docs/zh/" target="_blank" rel="noopener noreffer ">点这里</a> 了解下。</p>
 <p>最近由于项目需求使用到了 clickhouse 做分析数据库，于是用测试环境做了一个单表 6 亿数据量的性能测试，记录一下测试结果，有做超大数据量分析技术选型需求的朋友可以参考下。</p>
@@ -576,7 +564,4 @@
 <p>在当前软硬件环境下，扫描 6 亿多行数据，常见的分析语句首次运行最慢在 8 秒左右能返回结果，相同的分析逻辑更换条件再次查询的时候效率有明显的提升，可以缩短到 1 秒左右，如果只是简单的列查询没有加减乘除、聚合等逻辑，扫描全表 6 亿多行数据首次查询基本可以在 2 秒内执行完成。</p>
 <p>以上是单机部署 Clickhouse 的性能表现情况，在不提升单机硬件性能的条件下，如果使用合理的集群部署，性能还能进一步提高。</p>
 <p>这个表现，毋庸置疑是目前离线数据分析数据库领域的性能王者。</p>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

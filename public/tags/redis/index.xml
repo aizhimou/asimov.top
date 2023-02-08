@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Redis - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/redis/</link>
-        <description>Redis - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 20 Oct 2020 22:19:32 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/redis/" rel="self" type="application/rss+xml" /><item>
-    <title>Redis 分布式高可用终极指南</title>
-    <link>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</link>
-    <pubDate>Tue, 20 Oct 2020 22:19:32 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Redis - Tag - Asimov's Blog</title><link>https://asimov.top/tags/redis/</link><description>Redis - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 20 Oct 2020 22:19:32 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/redis/" rel="self" type="application/rss+xml"/><item><title>Redis 分布式高可用终极指南</title><link>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</link><pubDate>Tue, 20 Oct 2020 22:19:32 +0800</pubDate><author>asimov</author><guid>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://www.mortensi.com/wp-content/uploads/2021/12/OSS-Cluster-background.png" referrerpolicy="no-referrer">
             </div><p>最近项目上需要用到 redis 高可用方案，遂上网找了一些资料学习，但是网上关于 redis 高可用的几种实现方式或口径不一，或含糊不清，或缺斤少两。经历了多方资料学习和实际验证，本文试图将 redis 分布式和集群方案从概念理解到技术选型到搭建使的整个过程用最简单的语言讲述清楚。</p>
 <h2 id="分布式与集群">分布式与集群</h2>
@@ -665,7 +653,4 @@
 </ol>
 <p>故障测试的方法与上面一样，故不赘述。</p>
 <h3 id="总结">总结</h3>
-<p>Redis 服务的部署方案的选型大家根据自己项目的需求部署即可，一般来说 redis sentinel 就够用了，也是目前用得最多的模式，但是 redis 3.0 之后官方推出的 redis-cluster 虽然本质是用于实现数据分片和分布式存储，但是其也实现了 redis sentinel 的全部功能，有完全的 HA 能力，并且部署起来更简单，因此成为了官方推荐的 HA 方案。我个人也更加推荐 redis cluster 方案。</p>]]></description>
-</item>
-</channel>
-</rss>
+<p>Redis 服务的部署方案的选型大家根据自己项目的需求部署即可，一般来说 redis sentinel 就够用了，也是目前用得最多的模式，但是 redis 3.0 之后官方推出的 redis-cluster 虽然本质是用于实现数据分片和分布式存储，但是其也实现了 redis sentinel 的全部功能，有完全的 HA 能力，并且部署起来更简单，因此成为了官方推荐的 HA 方案。我个人也更加推荐 redis cluster 方案。</p>]]></description></item></channel></rss>

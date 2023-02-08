@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>DataStructure - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/datastructure/</link>
-        <description>DataStructure - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 02 Mar 2021 20:16:39 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/datastructure/" rel="self" type="application/rss+xml" /><item>
-    <title>数据结构之数组</title>
-    <link>https://asimov.top/data-structures-array/</link>
-    <pubDate>Tue, 02 Mar 2021 20:16:39 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/data-structures-array/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>DataStructure - Tag - Asimov's Blog</title><link>https://asimov.top/tags/datastructure/</link><description>DataStructure - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Tue, 02 Mar 2021 20:16:39 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/datastructure/" rel="self" type="application/rss+xml"/><item><title>数据结构之数组</title><link>https://asimov.top/data-structures-array/</link><pubDate>Tue, 02 Mar 2021 20:16:39 +0800</pubDate><author>asimov</author><guid>https://asimov.top/data-structures-array/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png" referrerpolicy="no-referrer">
             </div><h2 id="简介">简介</h2>
 <p>数组是一个<strong>线性表</strong>类型的数据数据，它用一组<strong>连续的内存空间</strong>，来存储一组<strong>类型相同的数据</strong>。</p>
@@ -58,7 +46,4 @@
 <li>数据本身是一种很基础的数据结构，提供的 API 比较有限，复杂操作并不方便。很多编程语言都提供了以数组为基础的容器，提供了更多的 API，使用起来更加方便，如果不是对性能有非常高的要求，日常开发中使用容器更方便。</li>
 <li>基于数组本身的特点，在使用数据容器（例如 Java 中的 ArrayList）时，尽量提前设置大小，可以提高效率。</li>
 </ul>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

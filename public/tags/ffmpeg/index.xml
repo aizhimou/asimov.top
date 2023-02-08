@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>FFmpeg - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/ffmpeg/</link>
-        <description>FFmpeg - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 12 Jun 2021 21:23:46 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/ffmpeg/" rel="self" type="application/rss+xml" /><item>
-    <title>FFmpeg 编码和编辑入门</title>
-    <link>https://asimov.top/ffmpeg-encoding-and-editing-course/</link>
-    <pubDate>Sat, 12 Jun 2021 21:23:46 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/ffmpeg-encoding-and-editing-course/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>FFmpeg - Tag - Asimov's Blog</title><link>https://asimov.top/tags/ffmpeg/</link><description>FFmpeg - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 12 Jun 2021 21:23:46 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/ffmpeg/" rel="self" type="application/rss+xml"/><item><title>FFmpeg 编码和编辑入门</title><link>https://asimov.top/ffmpeg-encoding-and-editing-course/</link><pubDate>Sat, 12 Jun 2021 21:23:46 +0800</pubDate><author>asimov</author><guid>https://asimov.top/ffmpeg-encoding-and-editing-course/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://ahmadawais.com/wp-content/uploads/2021/05/FFmpeg.jpg" referrerpolicy="no-referrer">
             </div><p>本文主要内容翻译自一篇介绍 FFmpeg 入门知识的英文 Web 幻灯片，加入了一些个人理解与学习注释。</p>
 <p>我翻译这篇文章的目的，一是学习 FFmpeg 相关的知识，二是练习英文翻译能力。但是受限于个人水平，有些英文专业名词翻译成中文有些怪异，碰到觉得翻译不好的地方，文中会附上原文词语，建议结合原文更好理解。</p>
@@ -985,7 +973,4 @@ Encoded packets are then passed to the decoder. […] The decoder produces uncom
 <li>读取流信息和元数据</li>
 <li>如果你遇到了困难，会寻找帮助</li>
 </ul>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

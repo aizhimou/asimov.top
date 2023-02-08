@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Algorithm - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/algorithm/</link>
-        <description>Algorithm - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 06 Feb 2021 17:04:54 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/algorithm/" rel="self" type="application/rss+xml" /><item>
-    <title>算法复杂度分析入门</title>
-    <link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link>
-    <pubDate>Sat, 06 Feb 2021 17:04:54 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Algorithm - Tag - Asimov's Blog</title><link>https://asimov.top/tags/algorithm/</link><description>Algorithm - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 06 Feb 2021 17:04:54 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/algorithm/" rel="self" type="application/rss+xml"/><item><title>算法复杂度分析入门</title><link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link><pubDate>Sat, 06 Feb 2021 17:04:54 +0800</pubDate><author>asimov</author><guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://img.lifelog.cool/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.jpg" referrerpolicy="no-referrer">
             </div><p><strong>执行效率</strong>和<strong>资源消耗</strong>是评价一个算法优劣最核心的两个点，分别代表运行这个算法所需要消耗的<strong>时间</strong>和<strong>空间</strong>。</p>
 <p>分析运行一个算法需要消耗多少时间的行为叫做<strong>时间复杂度分析</strong>，同理，分析运行一个算法需要消耗多少空间的行为叫做<strong>空间复杂度分析</strong>。</p>
@@ -497,7 +485,4 @@ $$1*\frac{1}{n+1}+1*\frac{1}{n+1}+\cdots+1*\frac{1}{n+1}+n*\frac{1}{n+1}=\frac{2
 <blockquote>
 <p>本文主要参考<a href="https://time.geekbang.org/column/intro/100017301" target="_blank" rel="noopener noreffer ">《数据结构与算法之美》</a>和维基百科。</p>
 </blockquote>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

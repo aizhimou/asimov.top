@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Java - Tag - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/tags/java/</link>
-        <description>Java - Tag - Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sun, 02 May 2021 22:46:28 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/tags/java/" rel="self" type="application/rss+xml" /><item>
-    <title>Java 集合框架一文通</title>
-    <link>https://asimov.top/the-java-collections-framework/</link>
-    <pubDate>Sun, 02 May 2021 22:46:28 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/the-java-collections-framework/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Java - Tag - Asimov's Blog</title><link>https://asimov.top/tags/java/</link><description>Java - Tag - Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sun, 02 May 2021 22:46:28 +0800</lastBuildDate><atom:link href="https://asimov.top/tags/java/" rel="self" type="application/rss+xml"/><item><title>Java 集合框架一文通</title><link>https://asimov.top/the-java-collections-framework/</link><pubDate>Sun, 02 May 2021 22:46:28 +0800</pubDate><author>asimov</author><guid>https://asimov.top/the-java-collections-framework/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://www.softwaretestingmaterial.com/wp-content/uploads/2018/08/Collections-Framework-In-Java.png" referrerpolicy="no-referrer">
             </div><h2 id="overview">Overview</h2>
 <p>容器，就是可以容纳其它对象的对象，从 JDK 1.2 开始，Java 提供了 <strong>Java Collection Framework（JCF）</strong> 给开发者提供了一个通用的容器框架。</p>
@@ -422,7 +410,4 @@
 <blockquote>
 <p>本文主要参考 <a href="https://pdai.tech/md/java/collection/java-collection-all.html" target="_blank" rel="noopener noreffer ">Java 全栈知识体系 - Java集合框架</a> 和 <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html" target="_blank" rel="noopener noreffer ">Oracle Java Docs - Collections Framework Overview</a></p>
 </blockquote>
-]]></description>
-</item>
-</channel>
-</rss>
+]]></description></item></channel></rss>

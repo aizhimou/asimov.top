@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>All Posts - Asimov&#39;s Blog</title>
-        <link>https://asimov.top/posts/</link>
-        <description>All Posts | Asimov&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor>
-            <webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 12 Jun 2021 21:23:46 &#43;0800</lastBuildDate><atom:link href="https://asimov.top/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>FFmpeg 编码和编辑入门</title>
-    <link>https://asimov.top/ffmpeg-encoding-and-editing-course/</link>
-    <pubDate>Sat, 12 Jun 2021 21:23:46 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/ffmpeg-encoding-and-editing-course/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - Asimov's Blog</title><link>https://asimov.top/posts/</link><description>All Posts | Asimov's Blog</description><generator>Hugo -- gohugo.io</generator><managingEditor>1224513626@qq.com (asimov)</managingEditor><webMaster>1224513626@qq.com (asimov)</webMaster><lastBuildDate>Sat, 12 Jun 2021 21:23:46 +0800</lastBuildDate><atom:link href="https://asimov.top/posts/" rel="self" type="application/rss+xml"/><item><title>FFmpeg 编码和编辑入门</title><link>https://asimov.top/ffmpeg-encoding-and-editing-course/</link><pubDate>Sat, 12 Jun 2021 21:23:46 +0800</pubDate><author>asimov</author><guid>https://asimov.top/ffmpeg-encoding-and-editing-course/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://ahmadawais.com/wp-content/uploads/2021/05/FFmpeg.jpg" referrerpolicy="no-referrer">
             </div><p>本文主要内容翻译自一篇介绍 FFmpeg 入门知识的英文 Web 幻灯片，加入了一些个人理解与学习注释。</p>
 <p>我翻译这篇文章的目的，一是学习 FFmpeg 相关的知识，二是练习英文翻译能力。但是受限于个人水平，有些英文专业名词翻译成中文有些怪异，碰到觉得翻译不好的地方，文中会附上原文词语，建议结合原文更好理解。</p>
@@ -985,15 +973,7 @@ Encoded packets are then passed to the decoder. […] The decoder produces uncom
 <li>读取流信息和元数据</li>
 <li>如果你遇到了困难，会寻找帮助</li>
 </ul>
-]]></description>
-</item>
-<item>
-    <title>Java 集合框架一文通</title>
-    <link>https://asimov.top/the-java-collections-framework/</link>
-    <pubDate>Sun, 02 May 2021 22:46:28 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/the-java-collections-framework/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>Java 集合框架一文通</title><link>https://asimov.top/the-java-collections-framework/</link><pubDate>Sun, 02 May 2021 22:46:28 +0800</pubDate><author>asimov</author><guid>https://asimov.top/the-java-collections-framework/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://www.softwaretestingmaterial.com/wp-content/uploads/2018/08/Collections-Framework-In-Java.png" referrerpolicy="no-referrer">
             </div><h2 id="overview">Overview</h2>
 <p>容器，就是可以容纳其它对象的对象，从 JDK 1.2 开始，Java 提供了 <strong>Java Collection Framework（JCF）</strong> 给开发者提供了一个通用的容器框架。</p>
@@ -1405,15 +1385,7 @@ Encoded packets are then passed to the decoder. […] The decoder produces uncom
 <blockquote>
 <p>本文主要参考 <a href="https://pdai.tech/md/java/collection/java-collection-all.html" target="_blank" rel="noopener noreffer ">Java 全栈知识体系 - Java集合框架</a> 和 <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html" target="_blank" rel="noopener noreffer ">Oracle Java Docs - Collections Framework Overview</a></p>
 </blockquote>
-]]></description>
-</item>
-<item>
-    <title>Clickhouse 亿级数据性能测试</title>
-    <link>https://asimov.top/clickhouse-billion-level-data-performance-test/</link>
-    <pubDate>Tue, 16 Mar 2021 21:35:39 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/clickhouse-billion-level-data-performance-test/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>Clickhouse 亿级数据性能测试</title><link>https://asimov.top/clickhouse-billion-level-data-performance-test/</link><pubDate>Tue, 16 Mar 2021 21:35:39 +0800</pubDate><author>asimov</author><guid>https://asimov.top/clickhouse-billion-level-data-performance-test/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://img.lifelog.cool/Using%20ClickHouse%20with%20MetricFire_waifu2x_art_noise3_scale.webp" referrerpolicy="no-referrer">
             </div><p>Clickhouse 在离线数据分析技术领域早已声名远扬，如果还不知道可以 <a href="https://clickhouse.tech/docs/zh/" target="_blank" rel="noopener noreffer ">点这里</a> 了解下。</p>
 <p>最近由于项目需求使用到了 clickhouse 做分析数据库，于是用测试环境做了一个单表 6 亿数据量的性能测试，记录一下测试结果，有做超大数据量分析技术选型需求的朋友可以参考下。</p>
@@ -1979,15 +1951,7 @@ Encoded packets are then passed to the decoder. […] The decoder produces uncom
 <p>在当前软硬件环境下，扫描 6 亿多行数据，常见的分析语句首次运行最慢在 8 秒左右能返回结果，相同的分析逻辑更换条件再次查询的时候效率有明显的提升，可以缩短到 1 秒左右，如果只是简单的列查询没有加减乘除、聚合等逻辑，扫描全表 6 亿多行数据首次查询基本可以在 2 秒内执行完成。</p>
 <p>以上是单机部署 Clickhouse 的性能表现情况，在不提升单机硬件性能的条件下，如果使用合理的集群部署，性能还能进一步提高。</p>
 <p>这个表现，毋庸置疑是目前离线数据分析数据库领域的性能王者。</p>
-]]></description>
-</item>
-<item>
-    <title>数据结构之数组</title>
-    <link>https://asimov.top/data-structures-array/</link>
-    <pubDate>Tue, 02 Mar 2021 20:16:39 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/data-structures-array/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>数据结构之数组</title><link>https://asimov.top/data-structures-array/</link><pubDate>Tue, 02 Mar 2021 20:16:39 +0800</pubDate><author>asimov</author><guid>https://asimov.top/data-structures-array/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/Arrays-in-data-structure.png" referrerpolicy="no-referrer">
             </div><h2 id="简介">简介</h2>
 <p>数组是一个<strong>线性表</strong>类型的数据数据，它用一组<strong>连续的内存空间</strong>，来存储一组<strong>类型相同的数据</strong>。</p>
@@ -2035,15 +1999,7 @@ Encoded packets are then passed to the decoder. […] The decoder produces uncom
 <li>数据本身是一种很基础的数据结构，提供的 API 比较有限，复杂操作并不方便。很多编程语言都提供了以数组为基础的容器，提供了更多的 API，使用起来更加方便，如果不是对性能有非常高的要求，日常开发中使用容器更方便。</li>
 <li>基于数组本身的特点，在使用数据容器（例如 Java 中的 ArrayList）时，尽量提前设置大小，可以提高效率。</li>
 </ul>
-]]></description>
-</item>
-<item>
-    <title>算法复杂度分析入门</title>
-    <link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link>
-    <pubDate>Sat, 06 Feb 2021 17:04:54 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>算法复杂度分析入门</title><link>https://asimov.top/introduction-to-algorithm-complexity-analysis/</link><pubDate>Sat, 06 Feb 2021 17:04:54 +0800</pubDate><author>asimov</author><guid>https://asimov.top/introduction-to-algorithm-complexity-analysis/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://img.lifelog.cool/algorithm-analysis-gate-cse-notes_waifu2x_art_noise3_scale.jpg" referrerpolicy="no-referrer">
             </div><p><strong>执行效率</strong>和<strong>资源消耗</strong>是评价一个算法优劣最核心的两个点，分别代表运行这个算法所需要消耗的<strong>时间</strong>和<strong>空间</strong>。</p>
 <p>分析运行一个算法需要消耗多少时间的行为叫做<strong>时间复杂度分析</strong>，同理，分析运行一个算法需要消耗多少空间的行为叫做<strong>空间复杂度分析</strong>。</p>
@@ -2530,15 +2486,7 @@ $$1*\frac{1}{n+1}+1*\frac{1}{n+1}+\cdots+1*\frac{1}{n+1}+n*\frac{1}{n+1}=\frac{2
 <blockquote>
 <p>本文主要参考<a href="https://time.geekbang.org/column/intro/100017301" target="_blank" rel="noopener noreffer ">《数据结构与算法之美》</a>和维基百科。</p>
 </blockquote>
-]]></description>
-</item>
-<item>
-    <title>Redis 分布式高可用终极指南</title>
-    <link>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</link>
-    <pubDate>Tue, 20 Oct 2020 22:19:32 &#43;0800</pubDate>
-    <author>asimov</author>
-    <guid>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</guid>
-    <description><![CDATA[<div class="featured-image">
+]]></description></item><item><title>Redis 分布式高可用终极指南</title><link>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</link><pubDate>Tue, 20 Oct 2020 22:19:32 +0800</pubDate><author>asimov</author><guid>https://asimov.top/the-ultimate-guide-to-redis-distributed-high-availability/</guid><description><![CDATA[<div class="featured-image">
                 <img src="https://www.mortensi.com/wp-content/uploads/2021/12/OSS-Cluster-background.png" referrerpolicy="no-referrer">
             </div><p>最近项目上需要用到 redis 高可用方案，遂上网找了一些资料学习，但是网上关于 redis 高可用的几种实现方式或口径不一，或含糊不清，或缺斤少两。经历了多方资料学习和实际验证，本文试图将 redis 分布式和集群方案从概念理解到技术选型到搭建使的整个过程用最简单的语言讲述清楚。</p>
 <h2 id="分布式与集群">分布式与集群</h2>
@@ -3193,7 +3141,4 @@ $$1*\frac{1}{n+1}+1*\frac{1}{n+1}+\cdots+1*\frac{1}{n+1}+n*\frac{1}{n+1}=\frac{2
 </ol>
 <p>故障测试的方法与上面一样，故不赘述。</p>
 <h3 id="总结">总结</h3>
-<p>Redis 服务的部署方案的选型大家根据自己项目的需求部署即可，一般来说 redis sentinel 就够用了，也是目前用得最多的模式，但是 redis 3.0 之后官方推出的 redis-cluster 虽然本质是用于实现数据分片和分布式存储，但是其也实现了 redis sentinel 的全部功能，有完全的 HA 能力，并且部署起来更简单，因此成为了官方推荐的 HA 方案。我个人也更加推荐 redis cluster 方案。</p>]]></description>
-</item>
-</channel>
-</rss>
+<p>Redis 服务的部署方案的选型大家根据自己项目的需求部署即可，一般来说 redis sentinel 就够用了，也是目前用得最多的模式，但是 redis 3.0 之后官方推出的 redis-cluster 虽然本质是用于实现数据分片和分布式存储，但是其也实现了 redis sentinel 的全部功能，有完全的 HA 能力，并且部署起来更简单，因此成为了官方推荐的 HA 方案。我个人也更加推荐 redis cluster 方案。</p>]]></description></item></channel></rss>

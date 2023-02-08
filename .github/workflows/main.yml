@@ -14,7 +14,7 @@ jobs:
 
     steps: # 自动化步骤
       - name: checkout repository # 第一步，下载代码仓库
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
         with:
           submodules: 'true'
 

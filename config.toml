@@ -374,7 +374,7 @@ enableEmoji = true
       Mix = false
     #  评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         enable = false
@@ -392,8 +392,8 @@ enableEmoji = true
         enable = true
         appId = "hYD0A3LPQRJ8XtDtRZG2PjSP-9Nh9j0Va"
         appKey = "LSgCEWjOrLFDg4I5Q4cSfzA7"
-        placeholder = "文章写得如何？给个评价呗 😊"
-        avatar = "hide"
+        placeholder = "嘿，老伙计，讲两句好听的让我高兴高兴吧。"
+        avatar = "wavatar"
         meta= ""
         pageSize = 20
         # 为空时自动适配当前主题 i18n 配置

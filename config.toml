@@ -106,7 +106,7 @@ enableEmoji = true
   [params.footer]
     enable = true
     #  自定义内容 (支持 HTML 格式)
-    custom = "本网站由<a target='_blank' href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'><img src='/upyun_logo.png' style='vertical-align:middle;height:30px'></img></a>提供加速/云存储服务"
+    custom = "<span style='color: gray'>本网站由&nbsp;<a target='_blank' href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'><img src='/upyun_logo.png' style='vertical-align:middle;height:30px'></img></a>&nbsp;提供加速/云存储服务</span>"
     #  是否显示 Hugo 和主题信息
     hugo = false
     #  是否显示版权信息
@@ -392,7 +392,7 @@ enableEmoji = true
         enable = true
         appId = "hYD0A3LPQRJ8XtDtRZG2PjSP-9Nh9j0Va"
         appKey = "LSgCEWjOrLFDg4I5Q4cSfzA7"
-        placeholder = "嘿，老伙计，讲两句好听的让我高兴高兴吧。"
+        placeholder = "NickName 填 QQ 号可以在评论区自动显示 QQ 昵称和头像哦"
         avatar = "wavatar"
         meta= ""
         pageSize = 20
